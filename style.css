@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin-left: 120px;
+    margin-right: 118px;
+}
+
+.d-f {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.top-wrap {
+    background-color: #0F054C;
+    position: relative;
+}
+
+.header {
+    padding-top: 60px;
+    padding-bottom: 51px;
+}
+
+.nav-list {
+    list-style-type: none;
+    gap: 32px;
+}
+
+.nav-list-item:nth-child(5) {
+    padding-right: 24px;
+    border-right: 1px solid #F2F2F2;
+}
+
+.nav-list-item:nth-child(6) {
+    width: 130px;
+    padding-left: 32px;
+    background: #3671E9;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+}
+
+.nav-list-item a {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-list-item a:hover {
+    color: burlywood;
+}
+
+.crappo-info-undertitle {
+    width: 365px;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 32px;
+    padding: 4px;
+    gap: 16px;
+}
+
+.info-undertitle-save {
+    width: 113px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D0D2B;
+}
+
+.info-undertitle-for {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.crappo-info-title {
+    width: 558px;
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.crappo-info-subtitle {
+    width: 435px;
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+.try-link {
+    display: block;
+    width: 202px;
+    margin-top: 32px;
+    padding-top: 18.5px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    background: #3671E9 url("./images/arrow-right.png") no-repeat 90%;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.crappo-stats {
+    margin-top: 96px;
+}
+
+.crappo-stats-item {
+    gap: 24px;
+}
+
+.stats-item-img {
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.stats-item-title {
+    padding-top: -20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.stats-item-subtitle {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+.crappo-choose-title {
+    width: 480px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.crappo-choose-subtitle {
+    width: 408px;
+    margin-top: 23.99px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+.more-link {
+    display: block;
+    width: 145px;
+    margin-top: 31.99px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #3671E9;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.crappo-earn-caption {
+    margin: 150px auto;
+    padding-bottom: 219px;
+    text-align: center;
+}
+
+.earn-caption-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.earn-caption-subtitle {
+    width: 622px;
+    margin: 24px auto;
+    font-size: 18px;
+    line-height: 150%;
+    color: #E0E0E0;
+}
+
+.linear-block {
+    width: 120px;
+    height: 997.88px;
+    background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+    transform: rotate(-120deg);
+    position: absolute;
+    left: 56px;
+    top: 414px;
+}
+
+.main-wrap {
+    position: relative;
+}
+
+.middle-wrap {
+    margin-top: -150px;
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+    padding-top: 200px;
+}
+
+.crappo-earn-rate {
+    width: 942px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 10px 40px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 40px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 40px -3px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 771px;
+    left: 20%;
+}
+
+.earn-rate-fm {
+    padding-bottom: 48px;
+    gap: 20px;
+}
+
+.earn-rate-fm input,
+.earn-rate-fm select,
+.calculate-btn {
+    display: block;
+}
+
+.earn-rate-fm input {
+    width: 403px;
+    padding-bottom: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+}
+
+.earn-rate-fm input::placeholder {
+    color: #0D0D2B;
+}
+
+.earn-rate-fm select {
+    width: 200px;
+    padding-bottom: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+}
+
+.calculate-btn {
+    width: 147px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #3671E9;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.earn-rate-info {
+    margin-top: 40px;
+}
+
+.rate-info-undertitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+
+.rate-info-title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+}
+
+.rate-info-title span {
+    color: #3671E9;
+}
+
+.rate-info-subtitle {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+
+.crappo-trade {
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
+.crappo-trade-title {
+    width: 741px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+}
+
+.crappo-trade-box {
+    margin-top: 64px;
+}
+
+.crappo-trade-item {
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 40px 40px lightgray;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.crappo-trade-item:hover {
+    background: #2B076E;
+    border: 1px solid #2B076E;
+}
+
+.crappo-trade-item:hover .trade-item-title,
+.crappo-trade-item:hover .trade-item-subtitle {
+    color: #FFFFFF;
+}
+
+.trade-item-title {
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0D0D2B;
+}
+
+.trade-item-title span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+
+.trade-item-subtitle {
+    width: 322px;
+    margin: 16px auto;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+
+.start-link {
+    width: 247px;
+    display: block;
+    margin: 25px auto;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    padding-left: 14px;
+    padding-right: 10px;
+    background: #3671E9 url("./images/right-arrow-2.png") no-repeat 90%;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.circle-link {
+    display: block;
+    margin: 30px auto;
+}
+
+.bottom-wrap {
+    background: #2B076E;
+    padding-bottom: 88px;
+}
+
+.crappo-smart, .crappo-details, .crappo-profit {
+    padding-top: 100px;
+}
+
+.crappo-smart-title {
+    width: 758px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.crappo-smart-box {
+    margin-top: 100px;
+}
+
+.smart-info-title, .details-info-title, .profit-info-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.smart-info-subtitle, .details-info-subtitle, .profit-info-subtitle {
+    width: 408px;
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+.smart-info-link {
+    width: 164px;
+    display: block;
+    margin-top: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #3671E9;
+    border: 1px solid #3671E9;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.crappo-mining {
+    width: 1200px;
+    margin: 100px auto;
+    padding: 48px;
+    background: #3671E9;
+    border: 1px solid #3671E9;
+    border-radius: 16px;
+}
+
+.mining-info-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.mining-info-subtitle {
+    width: 348px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+
+.crappo-mining-fm input {
+    width: 374px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.crappo-mining-fm input::placeholder {
+    color: #FFFFFF;
+}
+
+.crappo-mining-fm button {
+    width: 152px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0D0D2B;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #0D0D2B;
+}
+
+.footer-links-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer-links-list {
+    margin-top: 24px;
+    list-style-type: none;
+}
+
+
+
+.links-list-item a {
+    font-size: 16px;
+    line-height: 38px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.footer-payment-box {
+    margin-top: 40px;
+    gap: 24px;
+}
+
+.footer-payment-title {
+    width: 355px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer-info {
+    margin-top: 120px;
+}
+
+.footer-rights {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.footer-social {
+    list-style-type: none;
+    gap: 32px;
+}
